@@ -1,3 +1,5 @@
-﻿string message = Message.GetMessage("fr");
+﻿using HelloMethods;
+
+string message = Message.GetMessage("fr");
 Console.WriteLine(message);
 Console.ReadLine();

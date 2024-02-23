@@ -14,6 +14,10 @@ namespace HelloMethods
             {
                 return "Bonjour le monde";
             }
+            else if (lang.Equals("pl"))
+            {
+                return "Ellohya Orldway";
+            }
             else
             {
                 return "Hello World";
