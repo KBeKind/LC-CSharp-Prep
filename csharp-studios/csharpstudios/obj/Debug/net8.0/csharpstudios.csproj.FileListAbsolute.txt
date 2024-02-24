@@ -1,0 +1,15 @@
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\bin\Debug\net8.0\csharpstudios.exe
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\bin\Debug\net8.0\csharpstudios.deps.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\bin\Debug\net8.0\csharpstudios.runtimeconfig.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\bin\Debug\net8.0\csharpstudios.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\bin\Debug\net8.0\csharpstudios.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.AssemblyInfoInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.AssemblyInfo.cs
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.csproj.CoreCompileInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.sourcelink.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\refint\csharpstudios.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\csharpstudios.genruntimeconfig.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\csharpstudios\obj\Debug\net8.0\ref\csharpstudios.dll
