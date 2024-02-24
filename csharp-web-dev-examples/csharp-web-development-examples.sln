@@ -38,7 +38,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentExample", "ReadonlyE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureExample", "ReadonlyExample\Temperature\TemperatureExample.csproj", "{7F106D83-3207-4DF8-9F29-36A0C862185D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap2Exer1", "Chap2Exer1\Chap2Exer1.csproj", "{B3FE344F-569D-4C78-A356-A48A82564C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap2ExerAndStudio", "Chap2Exer1\Chap2ExerAndStudio.csproj", "{B3FE344F-569D-4C78-A356-A48A82564C5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
