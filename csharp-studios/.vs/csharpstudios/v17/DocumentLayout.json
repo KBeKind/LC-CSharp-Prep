@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72ED203C-19BB-4631-AF1C-55EE7198495B}|csharpstudios\\csharpstudios.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72ED203C-19BB-4631-AF1C-55EE7198495B}|csharpstudios\\csharpstudios.csproj|solutionrelative:csharpstudios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|solutionrelative:csharpstudiochap4\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|solutionrelative:csharpstudiochap4\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|solutionrelative:csharpstudiochap4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ED203C-19BB-4631-AF1C-55EE7198495B}|csharpstudios\\csharpstudiochap3.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ED203C-19BB-4631-AF1C-55EE7198495B}|csharpstudios\\csharpstudiochap3.csproj|solutionrelative:csharpstudios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Menu.cs",
+              "RelativeDocumentMoniker": "csharpstudiochap4\\Menu.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Menu.cs",
+              "RelativeToolTip": "csharpstudiochap4\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T15:12:49.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\MenuItem.cs",
+              "RelativeDocumentMoniker": "csharpstudiochap4\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\MenuItem.cs",
+              "RelativeToolTip": "csharpstudiochap4\\MenuItem.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T15:05:55.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Program.cs",
+              "RelativeDocumentMoniker": "csharpstudiochap4\\Program.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Program.cs",
+              "RelativeToolTip": "csharpstudiochap4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T15:05:37.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudios\\Program.cs",
               "RelativeDocumentMoniker": "csharpstudios\\Program.cs",
