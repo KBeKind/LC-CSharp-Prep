@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharpstudiochap3", "csharpstudios\csharpstudiochap3.csproj", "{72ED203C-19BB-4631-AF1C-55EE7198495B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpstudiochap4", "csharpstudiochap4\csharpstudiochap4.csproj", "{8402A118-D79C-45AF-BACD-7FEEAC92A572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharpstudiochap4and5", "csharpstudiochap4\csharpstudiochap4and5.csproj", "{8402A118-D79C-45AF-BACD-7FEEAC92A572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
