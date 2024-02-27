@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\csharpstudiochap4.csproj",
-      "projectName": "csharpstudiochap4",
-      "projectPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\csharpstudiochap4.csproj",
+      "projectUniqueName": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\csharpstudiochap4and5.csproj",
+      "projectName": "csharpstudiochap4and5",
+      "projectPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\csharpstudiochap4and5.csproj",
       "packagesPath": "C:\\Users\\kyler\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\obj\\",
       "projectStyle": "PackageReference",
