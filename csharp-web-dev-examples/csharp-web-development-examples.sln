@@ -36,8 +36,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadonlyExample", "Readonly
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentExample", "ReadonlyExample\StudentExample\StudentExample.csproj", "{9A9349A1-3E77-41D8-A125-6984C2718BBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureExample", "ReadonlyExample\Temperature\TemperatureExample.csproj", "{7F106D83-3207-4DF8-9F29-36A0C862185D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap2ExerAndStudio", "Chap2Exer1\Chap2ExerAndStudio.csproj", "{B3FE344F-569D-4C78-A356-A48A82564C5E}"
 EndProject
 Global
@@ -98,10 +96,6 @@ Global
 		{9A9349A1-3E77-41D8-A125-6984C2718BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A9349A1-3E77-41D8-A125-6984C2718BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A9349A1-3E77-41D8-A125-6984C2718BBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F106D83-3207-4DF8-9F29-36A0C862185D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F106D83-3207-4DF8-9F29-36A0C862185D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F106D83-3207-4DF8-9F29-36A0C862185D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F106D83-3207-4DF8-9F29-36A0C862185D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B3FE344F-569D-4C78-A356-A48A82564C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B3FE344F-569D-4C78-A356-A48A82564C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FE344F-569D-4C78-A356-A48A82564C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -113,7 +107,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{28371F93-BC9E-4315-96CD-A38F862EA077} = {2FBC4207-C3A8-40C8-86B5-A125283B267A}
 		{9A9349A1-3E77-41D8-A125-6984C2718BBF} = {2FBC4207-C3A8-40C8-86B5-A125283B267A}
-		{7F106D83-3207-4DF8-9F29-36A0C862185D} = {2FBC4207-C3A8-40C8-86B5-A125283B267A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17025AE3-3ED5-466D-A71F-51A4E88EACEB}
