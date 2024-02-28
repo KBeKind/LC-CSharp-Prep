@@ -1,0 +1,15 @@
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\bin\Debug\net8.0\BalancedBrackets.exe
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\bin\Debug\net8.0\BalancedBrackets.deps.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\bin\Debug\net8.0\BalancedBrackets.runtimeconfig.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\bin\Debug\net8.0\BalancedBrackets.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\bin\Debug\net8.0\BalancedBrackets.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.AssemblyInfoInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.AssemblyInfo.cs
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.csproj.CoreCompileInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.sourcelink.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\refint\BalancedBrackets.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\BalancedBrackets.genruntimeconfig.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\BalancedBrackets\obj\Debug\net8.0\ref\BalancedBrackets.dll
