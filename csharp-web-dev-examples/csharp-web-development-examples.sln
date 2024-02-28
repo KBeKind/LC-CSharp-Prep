@@ -38,6 +38,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentExample", "ReadonlyE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap2ExerAndStudio", "Chap2Exer1\Chap2ExerAndStudio.csproj", "{B3FE344F-569D-4C78-A356-A48A82564C5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatTests", "CatTests\CatTests.csproj", "{6768E5B5-C5C9-424F-9213-D33873DB7FDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{B3FE344F-569D-4C78-A356-A48A82564C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FE344F-569D-4C78-A356-A48A82564C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3FE344F-569D-4C78-A356-A48A82564C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6768E5B5-C5C9-424F-9213-D33873DB7FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6768E5B5-C5C9-424F-9213-D33873DB7FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6768E5B5-C5C9-424F-9213-D33873DB7FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6768E5B5-C5C9-424F-9213-D33873DB7FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
