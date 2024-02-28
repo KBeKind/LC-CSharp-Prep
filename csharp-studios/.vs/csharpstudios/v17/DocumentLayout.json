@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|solutionrelative:csharpstudiochap4\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA2DD499-3BC1-45EB-9290-000D0CD905A1}|BalancedBracketsTests\\BalancedBracketsTests.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\balancedbracketstests\\balancedbracketstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2DD499-3BC1-45EB-9290-000D0CD905A1}|BalancedBracketsTests\\BalancedBracketsTests.csproj|solutionrelative:balancedbracketstests\\balancedbracketstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|solutionrelative:csharpstudiochap4\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8402A118-D79C-45AF-BACD-7FEEAC92A572}|csharpstudiochap4\\csharpstudiochap4.csproj|solutionrelative:csharpstudiochap4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1419FF9E-7D5D-4D47-91B5-AE288733DF1E}|BalancedBrackets\\BalancedBrackets.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\balancedbrackets\\balancedbrackets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1419FF9E-7D5D-4D47-91B5-AE288733DF1E}|BalancedBrackets\\BalancedBrackets.csproj|solutionrelative:balancedbrackets\\balancedbrackets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,41 +54,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Program.cs",
-              "RelativeDocumentMoniker": "csharpstudiochap4\\Program.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Program.cs",
-              "RelativeToolTip": "csharpstudiochap4\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "BalancedBrackets.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\BalancedBrackets\\BalancedBrackets.cs",
+              "RelativeDocumentMoniker": "BalancedBrackets\\BalancedBrackets.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\BalancedBrackets\\BalancedBrackets.cs",
+              "RelativeToolTip": "BalancedBrackets\\BalancedBrackets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T23:43:53.578Z",
+              "WhenOpened": "2024-02-28T00:43:23.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Menu.cs",
-              "RelativeDocumentMoniker": "csharpstudiochap4\\Menu.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\Menu.cs",
-              "RelativeToolTip": "csharpstudiochap4\\Menu.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAzwF0AAAARAAAA",
+              "Title": "BalancedBracketsTests.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\BalancedBracketsTests\\BalancedBracketsTests.cs",
+              "RelativeDocumentMoniker": "BalancedBracketsTests\\BalancedBracketsTests.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\BalancedBracketsTests\\BalancedBracketsTests.cs",
+              "RelativeToolTip": "BalancedBracketsTests\\BalancedBracketsTests.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAA2wEAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T15:12:49.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\MenuItem.cs",
-              "RelativeDocumentMoniker": "csharpstudiochap4\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\csharpstudiochap4\\MenuItem.cs",
-              "RelativeToolTip": "csharpstudiochap4\\MenuItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T15:05:55.442Z",
+              "WhenOpened": "2024-02-28T00:42:23.616Z",
               "EditorCaption": ""
             }
           ]

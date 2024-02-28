@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharpstudiochap3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c81f180e2485fea0047a236117dc8426964d195b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85b7a4ebcbe33b0d7ddd80bfbc5d918a6a96fa45")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharpstudiochap3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharpstudiochap3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
