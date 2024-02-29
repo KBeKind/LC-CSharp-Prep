@@ -1,0 +1,15 @@
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\bin\Debug\net8.0\CSharpStudioChap7Quiz.exe
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\bin\Debug\net8.0\CSharpStudioChap7Quiz.deps.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\bin\Debug\net8.0\CSharpStudioChap7Quiz.runtimeconfig.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\bin\Debug\net8.0\CSharpStudioChap7Quiz.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\bin\Debug\net8.0\CSharpStudioChap7Quiz.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.AssemblyInfoInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.AssemblyInfo.cs
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.csproj.CoreCompileInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.sourcelink.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\refint\CSharpStudioChap7Quiz.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\CSharpStudioChap7Quiz.genruntimeconfig.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap7Quiz\obj\Debug\net8.0\ref\CSharpStudioChap7Quiz.dll
