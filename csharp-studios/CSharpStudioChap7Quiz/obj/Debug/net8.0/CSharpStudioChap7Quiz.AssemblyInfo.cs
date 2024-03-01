@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpStudioChap7Quiz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c2d7b56b9094f6796d249940095b364903ad97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+896308a80af6620e5bfac14eab1a34c00d55589b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpStudioChap7Quiz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpStudioChap7Quiz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
