@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBrackets", "Balance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStudioChap7Quiz", "CSharpStudioChap7Quiz\CSharpStudioChap7Quiz.csproj", "{CCA182FA-796D-42FB-A6C8-2B6262E9D005}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpStudioChap8SpinningDiscs", "CSharpStudioChap8SpinningDiscs\CSharpStudioChap8SpinningDiscs.csproj", "{D7515EDE-68C8-4562-84A0-BB56B8D85F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CCA182FA-796D-42FB-A6C8-2B6262E9D005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA182FA-796D-42FB-A6C8-2B6262E9D005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA182FA-796D-42FB-A6C8-2B6262E9D005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7515EDE-68C8-4562-84A0-BB56B8D85F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7515EDE-68C8-4562-84A0-BB56B8D85F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7515EDE-68C8-4562-84A0-BB56B8D85F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7515EDE-68C8-4562-84A0-BB56B8D85F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

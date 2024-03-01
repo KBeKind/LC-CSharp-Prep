@@ -1,0 +1,15 @@
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\bin\Debug\net8.0\CSharpStudioChap8SpinningDiscs.exe
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\bin\Debug\net8.0\CSharpStudioChap8SpinningDiscs.deps.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\bin\Debug\net8.0\CSharpStudioChap8SpinningDiscs.runtimeconfig.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\bin\Debug\net8.0\CSharpStudioChap8SpinningDiscs.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\bin\Debug\net8.0\CSharpStudioChap8SpinningDiscs.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.AssemblyInfoInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.AssemblyInfo.cs
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.csproj.CoreCompileInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.sourcelink.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\refint\CSharpStudioChap8SpinningDiscs.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\CSharpStudioChap8SpinningDiscs.genruntimeconfig.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\CSharpStudioChap8SpinningDiscs\obj\Debug\net8.0\ref\CSharpStudioChap8SpinningDiscs.dll
