@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IqBco1qtrB/F4V8iM0AhQPWxHus4UcfPrfg7f5KeJLCP/ah0XvgtZM3NFoYaaMG5CxHSdHqj7hR+3ZAJffL9bA==",
+  "dgSpecHash": "EMr+Tr9n2jqLcIOvCb0cFMj0doZ81Zq28YFAsxS3csa+wuPoa0n5Eipnoqp2voNdBVCBKeJiCjKwN8pR4BIi6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\BalancedBracketsTests\\BalancedBracketsTests.csproj",
+  "projectFilePath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\BalancedBracketsTests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kyler\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\kyler\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

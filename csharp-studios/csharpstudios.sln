@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharpstudiochap3", "csharp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharpstudiochap4and5", "csharpstudiochap4\csharpstudiochap4and5.csproj", "{8402A118-D79C-45AF-BACD-7FEEAC92A572}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBracketsTests", "BalancedBracketsTests\BalancedBracketsTests.csproj", "{CA2DD499-3BC1-45EB-9290-000D0CD905A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BalancedBracketsTests\Tests.csproj", "{CA2DD499-3BC1-45EB-9290-000D0CD905A1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBrackets", "BalancedBrackets\BalancedBrackets.csproj", "{1419FF9E-7D5D-4D47-91B5-AE288733DF1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpStudioChap7Quiz", "CSharpStudioChap7Quiz\CSharpStudioChap7Quiz.csproj", "{CCA182FA-796D-42FB-A6C8-2B6262E9D005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStudioChap7Quiz", "CSharpStudioChap7Quiz\CSharpStudioChap7Quiz.csproj", "{CCA182FA-796D-42FB-A6C8-2B6262E9D005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

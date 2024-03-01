@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BalancedBrackets\BalancedBrackets.csproj" />
+    <ProjectReference Include="..\CSharpStudioChap7Quiz\CSharpStudioChap7Quiz.csproj" />
   </ItemGroup>
 
   <ItemGroup>
