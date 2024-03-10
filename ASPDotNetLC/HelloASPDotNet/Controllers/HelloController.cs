@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using HelloASPDotNet.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Linq.Expressions;
+using System.Xml.Linq;
 
 namespace HelloASPDotNet.Controllers
 {
@@ -9,16 +13,58 @@ namespace HelloASPDotNet.Controllers
 		
 		public IActionResult Index()
 		{
-			string html = "<form method='post' action='/helloworld/welcome'><input type='text' name='name' /><input type='submit' value='Greet Me!' /></form>";
-			return Content(html, "text/html");
+
+			var languageDictionary = new Dictionary<string, string>
+			{
+				{ "eng", "English" },
+				{ "spa", "Spanish" },
+				{ "pig", "Pig Latin" }
+			};
+
+			var viewModel = new HelloIndexViewModel
+			{
+				LanguageList = new SelectList(languageDictionary, "Key", "Value")
+			};
+
+
+			//ViewData["LanguageList"] = new SelectList(languageDictionary ?? new Dictionary<string, string>(), "Key", "Value");
+			//ViewData["LanguageList"] = new SelectList(languageDictionary, "Key", "Value" );
+
+			return View(viewModel);
 		}
 
 		[HttpGet("welcome/{name?}")]
 		[HttpPost]
 		[Route("welcome")]
-		public IActionResult Welcome(string name = "Worl")
+		public IActionResult Welcome(HelloIndexViewModel model)
 		{
-			return Content($"Welcome to my app, {name}!", "text/html");
+			if (ModelState.IsValid)
+			{
+				string result = CreateMessageFromPostedFormData(model);
+				return Content(result, "text/html");
+			}
+			return View("Index", model);
+			
 		}
+
+
+
+		private string CreateMessageFromPostedFormData(HelloIndexViewModel model)
+		{
+			switch (model.SelectedLanguage)
+			{
+				case "pig":
+					return $"ElloHa {model.Name}";
+					break;
+				case "spa":
+					return $"Hola {model.Name}";
+					break;
+				default:
+					return $"Hello {model.Name}";
+					break;
+			}
+
+		}
+
 	}
 }
