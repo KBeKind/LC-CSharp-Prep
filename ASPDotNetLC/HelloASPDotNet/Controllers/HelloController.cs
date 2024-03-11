@@ -1,8 +1,7 @@
 ﻿using HelloASPDotNet.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Linq.Expressions;
-using System.Xml.Linq;
+
 
 namespace HelloASPDotNet.Controllers
 {
@@ -14,21 +13,15 @@ namespace HelloASPDotNet.Controllers
 		public IActionResult Index()
 		{
 
-			var languageDictionary = new Dictionary<string, string>
+			var languageSelectItemList = new List<SelectListItem>
 			{
-				{ "eng", "English" },
-				{ "spa", "Spanish" },
-				{ "pig", "Pig Latin" }
+				new SelectListItem { Text = "English" , Value = "eng"},
+				new SelectListItem { Text = "Spanish" , Value = "spa"},
+				new SelectListItem { Text = "Pig Latin" , Value = "pig"},
 			};
 
-			var viewModel = new HelloIndexViewModel
-			{
-				LanguageList = new SelectList(languageDictionary, "Key", "Value")
-			};
-
-
-			//ViewData["LanguageList"] = new SelectList(languageDictionary ?? new Dictionary<string, string>(), "Key", "Value");
-			//ViewData["LanguageList"] = new SelectList(languageDictionary, "Key", "Value" );
+			ViewBag.LanguageSelectItemList = languageSelectItemList;
+			var viewModel = new HelloIndexViewModel	{};
 
 			return View(viewModel);
 		}
@@ -38,19 +31,22 @@ namespace HelloASPDotNet.Controllers
 		[Route("welcome")]
 		public IActionResult Welcome(HelloIndexViewModel model)
 		{
-			if (ModelState.IsValid)
+
+			if(ModelState.IsValid)
 			{
 				string result = CreateMessageFromPostedFormData(model);
 				return Content(result, "text/html");
 			}
-			return View("Index", model);
-			
-		}
 
+			return View("Index", model);
+
+
+		}
 
 
 		private string CreateMessageFromPostedFormData(HelloIndexViewModel model)
 		{
+
 			switch (model.SelectedLanguage)
 			{
 				case "pig":

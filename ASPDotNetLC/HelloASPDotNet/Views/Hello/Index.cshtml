@@ -1,14 +1,13 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @model HelloASPDotNet.Models.ViewModels.HelloIndexViewModel
 
 @{
 
 	@using (Html.BeginForm("Welcome", "HelloWorld", FormMethod.Post))
 	{
-	@Html.TextBox("name");
-	@Html.DropDownListFor(m=> m.SelectedLanguage, Model.LanguageList, "Choose a language")
+	@Html.TextBoxFor((model => model.Name));
+		
+		@Html.DropDownListFor(m => m.SelectedLanguage, (IEnumerable<SelectListItem>)ViewBag.LanguageSelectItemList, "Choose a language")
 	<input type='submit' value='Greet Me!' />
 	
 	
