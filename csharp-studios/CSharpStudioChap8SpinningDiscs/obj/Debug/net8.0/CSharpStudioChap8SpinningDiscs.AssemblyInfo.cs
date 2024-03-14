@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpStudioChap8SpinningDiscs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+896308a80af6620e5bfac14eab1a34c00d55589b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee1e56fc384fb154304cc73e6a86b9eec1fdf136")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpStudioChap8SpinningDiscs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpStudioChap8SpinningDiscs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\bin\Debug\net8.0\SpinningDiscsDebugging.exe
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\bin\Debug\net8.0\SpinningDiscsDebugging.deps.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\bin\Debug\net8.0\SpinningDiscsDebugging.runtimeconfig.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\bin\Debug\net8.0\SpinningDiscsDebugging.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\bin\Debug\net8.0\SpinningDiscsDebugging.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.AssemblyInfoInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.AssemblyInfo.cs
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.csproj.CoreCompileInputs.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.sourcelink.json
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\refint\SpinningDiscsDebugging.dll
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.pdb
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\SpinningDiscsDebugging.genruntimeconfig.cache
+C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\csharp-studios\SpinningDiscsDebugging\obj\Debug\net8.0\ref\SpinningDiscsDebugging.dll

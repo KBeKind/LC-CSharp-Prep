@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap8spinningdiscs\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|solutionrelative:csharpstudiochap8spinningdiscs\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap8spinningdiscs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|solutionrelative:csharpstudiochap8spinningdiscs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap8spinningdiscs\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|solutionrelative:csharpstudiochap8spinningdiscs\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap8spinningdiscs\\basedisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|solutionrelative:csharpstudiochap8spinningdiscs\\basedisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\csharp-studios\\csharpstudiochap8spinningdiscs\\iopticaldisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7515EDE-68C8-4562-84A0-BB56B8D85F29}|CSharpStudioChap8SpinningDiscs\\CSharpStudioChap8SpinningDiscs.csproj|solutionrelative:csharpstudiochap8spinningdiscs\\iopticaldisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,71 +42,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseDisc.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\BaseDisc.cs",
-              "RelativeDocumentMoniker": "CSharpStudioChap8SpinningDiscs\\BaseDisc.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\BaseDisc.cs",
-              "RelativeToolTip": "CSharpStudioChap8SpinningDiscs\\BaseDisc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:24:41.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOpticalDisc.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\IOpticalDisc.cs",
-              "RelativeDocumentMoniker": "CSharpStudioChap8SpinningDiscs\\IOpticalDisc.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\IOpticalDisc.cs",
-              "RelativeToolTip": "CSharpStudioChap8SpinningDiscs\\IOpticalDisc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:23:34.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DVD.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\DVD.cs",
-              "RelativeDocumentMoniker": "CSharpStudioChap8SpinningDiscs\\DVD.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\DVD.cs",
-              "RelativeToolTip": "CSharpStudioChap8SpinningDiscs\\DVD.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:21:18.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CD.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\CD.cs",
-              "RelativeDocumentMoniker": "CSharpStudioChap8SpinningDiscs\\CD.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\CD.cs",
-              "RelativeToolTip": "CSharpStudioChap8SpinningDiscs\\CD.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:21:11.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\Program.cs",
-              "RelativeDocumentMoniker": "CSharpStudioChap8SpinningDiscs\\Program.cs",
-              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\csharp-studios\\CSharpStudioChap8SpinningDiscs\\Program.cs",
-              "RelativeToolTip": "CSharpStudioChap8SpinningDiscs\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T20:20:44.425Z",
-              "EditorCaption": ""
             }
           ]
         }
