@@ -10,10 +10,23 @@
 	// @using (Html.BeginForm("Welcome", "Hello", FormMethod.Post))
 	// {
 	<form action="/hello" method="post">
-	@Html.TextBoxFor((model => model.Name));
-		
+		@Html.LabelFor(model => model.Name)
+	@Html.TextBoxFor((model => model.Name))
+	<br/>
+		<br />
 		@Html.DropDownListFor(m => m.SelectedLanguage, (IEnumerable<SelectListItem>)ViewBag.LanguageSelectItemList, "Choose a language")
+
+		<br />
+		<br/>
+		@Html.LabelFor(model => model.IsTest)
+
+		@Html.CheckBoxFor((model => model.IsTest))
+		<br/>
+		<br />
 	<input type='submit' value='Greet Me!' />
+
+
+
 	</form>
 	
 	// }

@@ -34,11 +34,24 @@ namespace HelloASPDotNet.Controllers
 			if(ModelState.IsValid)
 			{
 				string result = CreateMessageFromPostedFormData(model);
-				return Content(result, "text/html");
+				HelloWelcomeViewModel viewModel = new HelloWelcomeViewModel();
+				viewModel.FinishedGreeting = result;
+
+				if (model.IsTest)
+				{
+					ViewBag.TestViewBag = "TEST";
+				}
+				else
+				{
+                    ViewBag.TestViewBag = "Not a test";
+
+                }
+
+
+                return View(viewModel);
 			}
 
 			return View("Index", model);
-
 
 		}
 
