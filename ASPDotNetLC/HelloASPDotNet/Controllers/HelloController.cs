@@ -5,11 +5,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HelloASPDotNet.Controllers
 {
-	[Route("/helloworld")]
+	[Route("/hello")]
 	public class HelloController : Controller
 	{
 		[HttpGet]
-		
 		public IActionResult Index()
 		{
 
@@ -26,9 +25,9 @@ namespace HelloASPDotNet.Controllers
 			return View(viewModel);
 		}
 
-		[HttpGet("welcome/{name?}")]
+		//[HttpGet("welcome/{name?}")]
 		[HttpPost]
-		[Route("welcome")]
+		//[Route("/hello")]
 		public IActionResult Welcome(HelloIndexViewModel model)
 		{
 

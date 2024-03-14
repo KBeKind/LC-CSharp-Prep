@@ -1,17 +1,22 @@
 ﻿
 @model HelloASPDotNet.Models.ViewModels.HelloIndexViewModel
 
+@* @{
+	Layout = null;
+}
+ *@
 @{
 
-	@using (Html.BeginForm("Welcome", "HelloWorld", FormMethod.Post))
-	{
+	// @using (Html.BeginForm("Welcome", "Hello", FormMethod.Post))
+	// {
+	<form action="/hello" method="post">
 	@Html.TextBoxFor((model => model.Name));
 		
 		@Html.DropDownListFor(m => m.SelectedLanguage, (IEnumerable<SelectListItem>)ViewBag.LanguageSelectItemList, "Choose a language")
 	<input type='submit' value='Greet Me!' />
+	</form>
 	
-	
-	}
+	// }
 
 
 }
