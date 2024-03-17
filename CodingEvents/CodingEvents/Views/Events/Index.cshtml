@@ -8,14 +8,19 @@
 
 	else
 	{
-		<ul>
+		<table>
 	
-		@foreach (string anEvent in ViewBag.events)
+		@foreach (KeyValuePair<string,string> anEvent in ViewBag.events)
 		{
-			<li>@anEvent</li>
+			<tr>
+					<td>Name: @anEvent.Key</td>
+					<td>&nbsp|&nbsp</td>
+					<td> Description: @anEvent.Value</td>
+			</tr>
+			
 		}
 
-	</ul>
+	</table>
 	}
 	
 
