@@ -34,13 +34,16 @@ namespace SpaDay6.Controllers
         }
 
         // GET: /<controller>/
+
+        [HttpGet]
+        [Route("/spa")]
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        [Route("/spa")]
+        [Route("/spa-menu")]
         public IActionResult Menu(string name, string skintype, string manipedi)
         {
             List<string> facials = new List<string>()
@@ -49,7 +52,8 @@ namespace SpaDay6.Controllers
             };
 
             ViewBag.name = name;
-           
+            ViewBag.skintype = skintype;
+            ViewBag.manipedi = manipedi;
 
             List<string> appropriateFacials = new List<string>();
             for (int i = 0; i < facials.Count; i++)
@@ -59,6 +63,9 @@ namespace SpaDay6.Controllers
                     appropriateFacials.Add(facials[i]);
                 }
             }
+
+            ViewBag.appropriateFacials = appropriateFacials;
+
             return View();
         }
     }

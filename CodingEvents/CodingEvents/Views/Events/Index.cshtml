@@ -10,12 +10,14 @@
 	{
 		<table>
 	
-		@foreach (KeyValuePair<string,string> anEvent in ViewBag.events)
+		@foreach (Event anEvent in ViewBag.events)
 		{
 			<tr>
-					<td>Name: @anEvent.Key</td>
+					<td>Id: @anEvent.Id</td>
 					<td>&nbsp|&nbsp</td>
-					<td> Description: @anEvent.Value</td>
+					<td>Name: @anEvent.Name</td>
+					<td>&nbsp|&nbsp</td>
+					<td>Description: @anEvent.Description</td>
 			</tr>
 			
 		}
