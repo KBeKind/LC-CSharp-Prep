@@ -3,71 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SpaDay6.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SpaDay6.Controllers
 {
-    public class SpaController : Controller
-    {
-        public bool CheckSkinType(string skinType, string facialType)
-        {
+	public class SpaController : Controller
+	{
+		// GET: /<controller>/
+		public IActionResult Index()
+		{
+			return View();
+		}
 
-            if (facialType != "Microdermabrasion")
-            {
-                if (skinType == "oily" && facialType != "Rejuvenating")
-                {
-                    return false;
-                }
-                else if (skinType == "combination" && (facialType != "Rejuvenating" || facialType != "Enzyme Peel"))
-                {
-                    return false;
-                }
-                else if (skinType == "dry" && facialType != "Hydrofacial")
-                {
-                    return false;
-                }
-            }
-
-            return true;
-
-        }
-
-        // GET: /<controller>/
-
-        [HttpGet]
-        [Route("/spa")]
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [Route("/spa-menu")]
-        public IActionResult Menu(string name, string skintype, string manipedi)
-        {
-            List<string> facials = new List<string>()
-            {
-                "Microdermabrasion", "Hydrofacial", "Rejuvenating", "Enzyme Peel"
-            };
-
-            ViewBag.name = name;
-            ViewBag.skintype = skintype;
-            ViewBag.manipedi = manipedi;
-
-            List<string> appropriateFacials = new List<string>();
-            for (int i = 0; i < facials.Count; i++)
-            {
-                if (CheckSkinType(skintype, facials[i]))
-                {
-                    appropriateFacials.Add(facials[i]);
-                }
-            }
-
-            ViewBag.appropriateFacials = appropriateFacials;
-
-            return View();
-        }
-    }
+		[HttpPost]
+		[Route("/spa")]
+		public IActionResult Menu(string skintype, string manipedi)
+		{
+			Client newClient = new Client(skintype, manipedi);
+			newClient.SetFacials(newClient.SkinType);
+			ViewBag.client = newClient;
+			return View();
+		}
+	}
 }
-
