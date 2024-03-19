@@ -10,6 +10,7 @@
     <None Remove="Views\Spa\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Views\User\" />
     <Folder Include="Views\Spa\" />
   </ItemGroup>
 </Project>
