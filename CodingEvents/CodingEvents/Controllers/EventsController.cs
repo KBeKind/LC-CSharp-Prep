@@ -1,6 +1,8 @@
 ﻿using CodingEvents.Data;
 using CodingEvents.Models;
 using Microsoft.AspNetCore.Mvc;
+using CodingEvents.ViewModels;
+
 
 namespace CodingEvents.Controllers
 {
@@ -11,9 +13,9 @@ namespace CodingEvents.Controllers
 		[HttpGet]
 		public IActionResult Index()
 		{
-			ViewBag.events = EventData.GetAll();
+			List<Event> events = new List<Event>( EventData.GetAll() );
 
-			return View();
+			return View(events);
 		}
 
 
@@ -21,14 +23,20 @@ namespace CodingEvents.Controllers
 		[Route("Add")]
 		public IActionResult Add()
 		{
-			return View();
+			AddEventViewModel viewModel = new AddEventViewModel();
+			return View(viewModel);
 		}
 
 
 		[HttpPost]
 		[Route("Add")]
-		public IActionResult NewEvent(Event newEvent)
+		public IActionResult NewEvent(AddEventViewModel addEventViewModel)
 		{
+			Event newEvent = new Event
+			{
+				Name = addEventViewModel.Name,
+				Description = addEventViewModel.Description
+			};
 
 			EventData.Add(newEvent);
 			return Redirect("/Events");
