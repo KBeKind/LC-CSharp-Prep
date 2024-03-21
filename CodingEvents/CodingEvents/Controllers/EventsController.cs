@@ -32,7 +32,10 @@ namespace CodingEvents.Controllers
 		[Route("Add")]
 		public IActionResult NewEvent(AddEventViewModel addEventViewModel)
 		{
-			Event newEvent = new Event
+			if (ModelState.IsValid) { 
+
+
+				Event newEvent = new Event
 			{
 				Name = addEventViewModel.Name,
 				Description = addEventViewModel.Description
@@ -40,6 +43,11 @@ namespace CodingEvents.Controllers
 
 			EventData.Add(newEvent);
 			return Redirect("/Events");
+
+
+			}
+
+			return View("Add", addEventViewModel);
 		}
 
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 namespace CodingEvents.Models
 {
@@ -7,6 +8,8 @@ namespace CodingEvents.Models
 
 		public string? Name { get; set; }
 		public string? Description { get; set; }
+
+		public string? Email { get; set; }
 
 		public int Id { get; }
 		static private int nextId = 1;
