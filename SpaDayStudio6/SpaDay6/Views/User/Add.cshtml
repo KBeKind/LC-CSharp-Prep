@@ -1,45 +1,45 @@
-﻿@{
+﻿@using SpaDay6.ViewModels
+@model AddUserViewModel
+@{
 }
 
-<form method="post" action="add">
+<form asp-controller="User" asp-action="Add" method="post">
 
-	<div class="row mb-3">
-		<label for="username" class="col-sm-1 col-form-label">Username</label>
-		<div class="col-sm-4">
-			<input type="text" name="username" class="form-control" value="@((ViewBag.username != null) ? ViewBag.username : "")"/>
-		</div>
+	<div asp-controller="User" asp-action="Add" class="form-group row mb-3">
+		<label asp-for="Username"></label>
+		<input asp-for="Username" class="form-control" />
+		<span asp-validation-for="Username" class="text-danger"></span>
 	</div>
 
-	<div class="row mb-3">
-		<label for="email" class="col-sm-1 col-form-label">Email</label>
-		<div class="col-sm-4">
-			<input type="text" name="email" class="form-control" value="@((ViewBag.email != null) ? ViewBag.email : "")" />
-		</div>
+	<div asp-controller="User" asp-action="Add" class="form-group row mb-3">
+		<label asp-for="Email"></label>
+		<input asp-for="Email" class="form-control" />
+		<span asp-validation-for="Email" class="text-danger"></span>
 	</div>
 
-	<div class="row mb-3">
-		<label for="password" class="col-sm-1 col-form-label">Password</label>
-		<div class="col-sm-4">
-			<input type="text" name="password" class="form-control" />
-		</div>
+	<div asp-controller="User" asp-action="Add" class="form-group row mb-3">
+		<label asp-for="Password"></label>
+		<input asp-for="Password" class="form-control" />
+		<span asp-validation-for="Password" class="text-danger"></span>
 	</div>
 
-
-	@if(ViewBag.error != null)
+	@if (ViewBag.error != null)
 	{
-		<p>@ViewBag.error</p>
+		<p class="text-danger">@ViewBag.error</p>
 	}
 
-	
-
-	<div class="row mb-3">
-		<label for="verify" class="col-sm-1 col-form-label">Verify Password</label>
-		<div class="col-sm-4">
-			<input type="text" name="verify" class="form-control" />
-		</div>
+	<div asp-controller="User" asp-action="Add" class="form-group row mb-3">
+		<label asp-for="VerifyPassword"></label>
+		<input asp-for="VerifyPassword" class="form-control" />
+		<span asp-validation-for="VerifyPassword" class="text-danger"></span>
 	</div>
 
 	<input type="submit" value="Create User" class="btn btn-success" />
 
-
 </form>
+
+
+
+
+	
+

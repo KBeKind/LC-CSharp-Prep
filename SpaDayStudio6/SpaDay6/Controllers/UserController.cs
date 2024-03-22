@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SpaDay6.Models;
+using SpaDay6.ViewModels;
 
 namespace SpaDay6.Controllers
 {
@@ -14,34 +15,38 @@ namespace SpaDay6.Controllers
         [Route("add")]
         public IActionResult Add()
         {
-            return View();
+			AddUserViewModel viewModel = new AddUserViewModel();
+
+			return View(viewModel);
         }
 
 
         [HttpPost]
         [Route("add")]
-		public IActionResult SubmitAddUserForm(User newUser, string verify)
+		public IActionResult SubmitAddUserForm(AddUserViewModel addUserViewModel)
 		{
-			// add form submission handling code here
 
-            if(newUser.Password.Equals(verify))
+          
+
+            if(ModelState.IsValid)
             {
-                ViewBag.username = newUser.Username;
-                ViewBag.email = newUser.Email;
+
+                if (!addUserViewModel.VerifyPassword.Equals(addUserViewModel.Password))
+                {
+                    ViewBag.error = "Passwords must match";
+                    return View("Add", addUserViewModel);
+                }
+
+                User newUser = new User();
+                newUser.Username = addUserViewModel.Username;
+                newUser.Email = addUserViewModel.Email;
+                newUser.Password = addUserViewModel.Password;
                 newUser.DateCreated = DateTime.Now;
 
-                ViewBag.dateCreated = newUser.DateCreated.ToString();
-
-
-                return View("Index");
+                return View("Index", newUser);
             }
 
-
-            ViewBag.error = "Passwords must match";
-            ViewBag.username = newUser.Username;
-            ViewBag.email = newUser.Email;
-
-            return View("Add");
+            return View("Add", addUserViewModel);
 
 
 		}
