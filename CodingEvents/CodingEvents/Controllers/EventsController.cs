@@ -38,8 +38,13 @@ namespace CodingEvents.Controllers
 				Event newEvent = new Event
 			{
 				Name = addEventViewModel.Name,
-				Description = addEventViewModel.Description
+				Description = addEventViewModel.Description,
+
 			};
+				if (addEventViewModel.ContactEmail != null)
+				{
+					newEvent.Email = addEventViewModel.ContactEmail;
+				}
 
 			EventData.Add(newEvent);
 			return Redirect("/Events");
