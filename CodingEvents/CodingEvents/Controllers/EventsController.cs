@@ -39,6 +39,9 @@ namespace CodingEvents.Controllers
 			{
 				Name = addEventViewModel.Name,
 				Description = addEventViewModel.Description,
+				Location = addEventViewModel.Location,
+				Attendees = addEventViewModel.Attendees,
+				IsRegistrationRequired = addEventViewModel.IsRegistrationRequired,
 
 			};
 				if (addEventViewModel.ContactEmail != null)

@@ -22,6 +22,24 @@
 		<span asp-validation-for="ContactEmail" class="text-danger"></span>
 	</div>
 
+	<div class="form-group">
+		<label asp-for="Location">Location</label>
+		<input asp-for="Location" />
+		<span asp-validation-for="Location" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="Attendees">Attendees</label>
+		<input asp-for="Attendees" />
+		<span asp-validation-for="Attendees" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="IsRegistrationRequired">Agree to Require Registration</label>
+		<input asp-for="IsRegistrationRequired" />
+		<span asp-validation-for="IsRegistrationRequired" class="text-danger"></span>
+	</div>
+
 	<input type="submit" value="Add Event" />
 
 </form>
