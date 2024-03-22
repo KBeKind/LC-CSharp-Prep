@@ -11,6 +11,12 @@ namespace CodingEvents.Models
 
 		public string? Email { get; set; }
 
+		public string? Location { get; set; }
+
+		public int? Attendees { get; set; }
+
+		public bool IsRegistrationRequired { get; set; }
+
 		public int Id { get; }
 		static private int nextId = 1;
 

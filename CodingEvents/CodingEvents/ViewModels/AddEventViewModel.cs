@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CodingEvents.ValidationAttributes;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodingEvents.ViewModels
 {
@@ -14,6 +15,20 @@ namespace CodingEvents.ViewModels
 
 		[EmailAddress]
 		public string? ContactEmail { get; set; }
+
+		[Required(ErrorMessage = "Location is required")]
+		[StringLength(60, MinimumLength = 3, ErrorMessage = "Location must be between 3 and 60 characters long")]
+		public string? Location { get; set; }
+
+		[Required(ErrorMessage = "Attendees is required")]
+		[Range(1, 50, ErrorMessage = "Value must be between 1 and 50.")]
+		public int? Attendees { get; set; }
+
+
+		
+		[Required(ErrorMessage = "You must require registration.")]
+		[MustBeTrueValidation(ErrorMessage = "You must require registration.")]
+		public bool IsRegistrationRequired { get; set; }
 
 	}
 }

@@ -2,34 +2,35 @@
 @{
 }
 
-	@if (Model.Count == 0)
-	{
-		<p>No events yet!</p>
-	}
+@if (Model.Count == 0)
+{
+	<p>No events yet!</p>
+}
 
-	else
-	{
-		<table>
-	
+else
+{
+	<table>
+
 		@foreach (Event anEvent in Model)
 		{
 			<tr>
-					<td>Id: @anEvent.Id</td>
-					<td>&nbsp|&nbsp</td>
-					<td>Name: @anEvent.Name</td>
-					<td>&nbsp|&nbsp</td>
-					<td>Description: @anEvent.Description</td>
-					<td>Email: @anEvent.Email</td>
-					<td><a asp-asp-controller="Events" asp-action="Edit" asp-route-id="@anEvent.Id">Edit</a></td>
+				<td>Id: @anEvent.Id &nbsp|&nbsp</td>
+				<td>Name: @anEvent.Name &nbsp|&nbsp</td>
+				<td>Description: @anEvent.Description</td>
+				<td>Email: @anEvent.Email &nbsp|&nbsp</td>
+				<td>Location: @anEvent.Location &nbsp|&nbsp</td>
+				<td>Attendees: @anEvent.Attendees &nbsp|&nbsp</td>
+				<td>Registration Requirement Agreement: @anEvent.IsRegistrationRequired &nbsp|&nbsp</td>
+				<td><a asp-asp-controller="Events" asp-action="Edit" asp-route-id="@anEvent.Id">Edit</a></td>
 			</tr>
-			
+
 		}
 
 	</table>
-	}
-	
+}
 
 
-	<a asp-controller="Events" asp-action="Add">Add Event Form</a>
+
+<a asp-controller="Events" asp-action="Add">Add Event Form</a>
 
 
