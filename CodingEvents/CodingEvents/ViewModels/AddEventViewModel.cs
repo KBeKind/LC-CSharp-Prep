@@ -1,4 +1,6 @@
-﻿using CodingEvents.ValidationAttributes;
+﻿using CodingEvents.Models;
+using CodingEvents.ValidationAttributes;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
 namespace CodingEvents.ViewModels
@@ -25,10 +27,23 @@ namespace CodingEvents.ViewModels
 		public int? Attendees { get; set; }
 
 
+
+
 		
 		[Required(ErrorMessage = "You must require registration.")]
 		[MustBeTrueValidation(ErrorMessage = "You must require registration.")]
 		public bool IsRegistrationRequired { get; set; }
+
+
+		public EventType Type { get; set; }
+
+		public List<SelectListItem> EventTypes { get; set; } = new List<SelectListItem>
+   {
+	  new SelectListItem(EventType.Conference.ToString(), ((int)EventType.Conference).ToString()),
+	  new SelectListItem(EventType.Meetup.ToString(), ((int)EventType.Meetup).ToString()),
+	  new SelectListItem(EventType.Social.ToString(), ((int)EventType.Social).ToString()),
+	  new SelectListItem(EventType.Workshop.ToString(), ((int)EventType.Workshop).ToString())
+   };
 
 	}
 }
