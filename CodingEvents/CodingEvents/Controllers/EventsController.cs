@@ -24,6 +24,8 @@ namespace CodingEvents.Controllers
 		public IActionResult Add()
 		{
 			AddEventViewModel viewModel = new AddEventViewModel();
+
+
 			return View(viewModel);
 		}
 
@@ -42,6 +44,7 @@ namespace CodingEvents.Controllers
 				Location = addEventViewModel.Location,
 				Attendees = addEventViewModel.Attendees,
 				IsRegistrationRequired = addEventViewModel.IsRegistrationRequired,
+				Type = addEventViewModel.Type,
 
 			};
 				if (addEventViewModel.ContactEmail != null)

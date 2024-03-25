@@ -17,6 +17,8 @@ namespace CodingEvents.Models
 
 		public bool IsRegistrationRequired { get; set; }
 
+		public EventType Type { get; set; }
+
 		public int Id { get; }
 		static private int nextId = 1;
 
