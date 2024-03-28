@@ -5,6 +5,7 @@ namespace CodingEvents.Models
 {
 	public class Event
 	{
+		//testcomment
 
 		public string? Name { get; set; }
 		public string? Description { get; set; }
