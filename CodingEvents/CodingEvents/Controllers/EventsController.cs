@@ -9,11 +9,18 @@ namespace CodingEvents.Controllers
 	[Route("Events")]
 	public class EventsController : Controller
 	{
-		
+		private EventDbContext context;
+
+		public EventsController(EventDbContext dbContext)
+		{
+			context = dbContext;
+		}
+
+
 		[HttpGet]
 		public IActionResult Index()
 		{
-			List<Event> events = new List<Event>( EventData.GetAll() );
+			List<Event> events = context.Events.ToList();
 
 			return View(events);
 		}
@@ -52,7 +59,8 @@ namespace CodingEvents.Controllers
 					newEvent.Email = addEventViewModel.ContactEmail;
 				}
 
-			EventData.Add(newEvent);
+			context.Events.Add(newEvent);
+			context.SaveChanges();
 			return Redirect("/Events");
 
 
@@ -66,7 +74,7 @@ namespace CodingEvents.Controllers
 		[Route("Delete")]
 		public IActionResult Delete()
 		{
-			ViewBag.events = EventData.GetAll();
+			ViewBag.events = context.Events.ToList();
 			return View();
 		}
 
@@ -76,9 +84,11 @@ namespace CodingEvents.Controllers
 		{
 			foreach (int eventId in eventIds)
 			{
-				EventData.Remove(eventId);
+				Event? theEvent = context.Events.Find(eventId);
+				context.Events.Remove(theEvent);
 
 			}
+			context.SaveChanges();
 
 			return Redirect("/Events");
 		}
@@ -88,7 +98,8 @@ namespace CodingEvents.Controllers
 		[Route("Edit/{eventId:int}")]
 		public IActionResult Edit(int eventId)
 		{
-			Event currentEvent = EventData.GetById(eventId);
+			Event? currentEvent = context.Events.Find(eventId);
+
 			ViewBag.currentEvent = currentEvent;
 			ViewBag.title = "Edit Event " + currentEvent.Name + "(id = " + currentEvent.Id + ")";
 
@@ -100,10 +111,10 @@ namespace CodingEvents.Controllers
 		[Route("Edit")]
 		public IActionResult SubmitEditEventForm(int eventId, string name, string description)
 		{
-			Event currentEvent = EventData.GetById(eventId);
+			Event? currentEvent = context.Events.Find(eventId);
 			currentEvent.Name = name;
 			currentEvent.Description = description;
-
+			context.SaveChanges();
 
 
 			return Redirect("/Events");

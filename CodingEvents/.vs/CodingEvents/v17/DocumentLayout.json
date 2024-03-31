@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\codingevents\\codingevents\\views\\eventcategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|solutionrelative:codingevents\\views\\eventcategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\codingevents\\codingevents\\controllers\\eventcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|solutionrelative:codingevents\\controllers\\eventcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\codingevents\\codingevents\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|solutionrelative:codingevents\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\codingevents\\codingevents\\models\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|solutionrelative:codingevents\\models\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|c:\\users\\kyler\\desktop\\lc-csharp\\csharp-web-dev\\codingevents\\codingevents\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B823544E-B7F2-4E94-9719-1158C95A4FB2}|CodingEvents\\CodingEvents.csproj|solutionrelative:codingevents\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -51,12 +67,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Views\\EventCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodingEvents\\Views\\EventCategory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Views\\EventCategory\\Index.cshtml",
+              "RelativeToolTip": "CodingEvents\\Views\\EventCategory\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T15:35:01.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Controllers\\EventCategoryController.cs",
+              "RelativeDocumentMoniker": "CodingEvents\\Controllers\\EventCategoryController.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Controllers\\EventCategoryController.cs",
+              "RelativeToolTip": "CodingEvents\\Controllers\\EventCategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T15:32:02.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventCategory.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Models\\EventCategory.cs",
+              "RelativeDocumentMoniker": "CodingEvents\\Models\\EventCategory.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Models\\EventCategory.cs",
+              "RelativeToolTip": "CodingEvents\\Models\\EventCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T15:25:54.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "CodingEvents\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "CodingEvents\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:58:27.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Models\\Event.cs",
               "RelativeDocumentMoniker": "CodingEvents\\Models\\Event.cs",
               "ToolTip": "C:\\Users\\kyler\\Desktop\\LC-CSHARP\\csharp-web-dev\\CodingEvents\\CodingEvents\\Models\\Event.cs",
               "RelativeToolTip": "CodingEvents\\Models\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowAcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T22:51:29.85Z",
               "EditorCaption": ""
