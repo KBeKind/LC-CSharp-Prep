@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kyler\Desktop\LC-CSHARP\csharp-web-dev\CodingEvents\CodingEvents
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/kyler/Desktop/LC-CSHARP/csharp-web-dev/CodingEvents/CodingEvents/Views/EventCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRDYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kyler/Desktop/LC-CSHARP/csharp-web-dev/CodingEvents/CodingEvents/Views/Events/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

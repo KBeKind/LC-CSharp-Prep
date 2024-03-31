@@ -1,0 +1,19 @@
+﻿@model List<EventCategory>
+
+
+@{
+}
+
+<h1>Event Categories </h1>
+
+<table>
+
+@foreach (EventCategory anEventCategory in Model)
+{
+	<tr>
+
+		<td>@anEventCategory.Name</td>
+
+	</tr>
+}
+</table>
