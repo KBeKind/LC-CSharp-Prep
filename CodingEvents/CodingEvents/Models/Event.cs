@@ -18,7 +18,8 @@ namespace CodingEvents.Models
 
 		public bool IsRegistrationRequired { get; set; }
 
-		public EventType Type { get; set; }
+		public EventCategory Category { get; set; }
+		public int CategoryId { get; set; }
 
 		public int Id { get; set; }
 
