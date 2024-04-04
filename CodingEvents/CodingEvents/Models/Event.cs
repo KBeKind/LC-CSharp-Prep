@@ -21,14 +21,25 @@ namespace CodingEvents.Models
 		public EventCategory Category { get; set; }
 		public int CategoryId { get; set; }
 
+		public ICollection<Tag>? Tags { get; set; }
+
 		public int Id { get; set; }
 
+	
 		public Event()
-		{}
+		{ Tags = new List<Tag>(); }
 
-		
 
-		public override string ToString()
+        public Event(string name, string description, string contactEmail)
+        {
+            Name = name;
+            Description = description;
+            Email = contactEmail;
+            Tags = new List<Tag>();
+        }
+
+
+        public override string ToString()
 		{
 			return Name;
 		}

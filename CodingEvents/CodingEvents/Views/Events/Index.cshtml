@@ -22,7 +22,9 @@ else
 				<td>Attendees: @anEvent.Attendees &nbsp|&nbsp</td>
 				<td>Event Category: @anEvent.Category.Name &nbsp|&nbsp</td>
 				<td>Registration Requirement Agreement: @anEvent.IsRegistrationRequired &nbsp|&nbsp</td>
-				<td><a asp-asp-controller="Events" asp-action="Edit" asp-route-id="@anEvent.Id">Edit</a></td>
+@* 				<td><a asp-asp-controller="Events" asp-action="Edit" asp-route-id="@anEvent.Id">Edit</a></td>
+ *@				<td><a asp-asp-controller="Events" asp-action="Detail" asp-route-id="@anEvent.Id">Detail View</a></td>
+
 			</tr>
 
 		}
