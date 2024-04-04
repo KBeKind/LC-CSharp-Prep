@@ -122,5 +122,17 @@ namespace CodingEvents.Controllers
 
 		}
 
+		[HttpGet("Detail/{id}")]
+        public IActionResult Detail(int id)
+		{
+			Event anEvent = context.Events.Include(e => e.Category).Include(e => e.Tags).Single(e => e.Id == id);
+
+			EventDetailViewModel viewModel = new EventDetailViewModel(anEvent);
+
+			return View(viewModel);
+		}
+
+
+
 	}
 }
