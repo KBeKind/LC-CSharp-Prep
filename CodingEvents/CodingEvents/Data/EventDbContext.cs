@@ -1,9 +1,11 @@
 ﻿using CodingEvents.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace CodingEvents.Data
 {
-	public class EventDbContext : DbContext
+	public class EventDbContext : IdentityDbContext<IdentityUser, IdentityRole, string>
 	{
 		public DbSet<Event> Events { get; set; }
 
@@ -11,8 +13,6 @@ namespace CodingEvents.Data
 
 		public DbSet<Tag> Tags { get; set; }
 
-		public EventDbContext() { }
-		
 		public EventDbContext(DbContextOptions<EventDbContext> options) : base(options)
 		{
 		}
@@ -20,11 +20,14 @@ namespace CodingEvents.Data
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Event>()
-				.HasMany(e => e.Tags)
-				.WithMany(e => e.Events)
+				.HasOne(p => p.Category)
+				.WithMany(b => b.Events);
+
+			modelBuilder.Entity<Event>()
+				.HasMany(p => p.Tags)
+				.WithMany(p => p.Events)
 				.UsingEntity(j => j.ToTable("EventTags"));
+			base.OnModelCreating(modelBuilder);
 		}
-
-
 	}
 }

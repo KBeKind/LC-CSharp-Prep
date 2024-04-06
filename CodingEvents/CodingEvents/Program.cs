@@ -1,7 +1,9 @@
 using CodingEvents.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+//var connectionString = builder.Configuration.GetConnectionString("EventDbContextConnection") ?? throw new InvalidOperationException("Connection string 'EventDbContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -13,7 +15,21 @@ string dbName = Environment.GetEnvironmentVariable("DB_NAME");
 var connectionString = $"server=localhost;user=codingeventscsharp;password=codingevents;database=coding-events-c-sharp";
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
 
+builder.Services.AddRazorPages();
+
+
 builder.Services.AddDbContext<EventDbContext>(dbContextOptions => dbContextOptions.UseMySql(connectionString, serverVersion));
+
+builder.Services.AddDefaultIdentity<IdentityUser>
+(options =>
+{
+	options.SignIn.RequireConfirmedAccount = false;
+	options.Password.RequireDigit = false;
+	options.Password.RequiredLength = 4;
+	options.Password.RequireNonAlphanumeric = false;
+	options.Password.RequireUppercase = false;
+	options.Password.RequireLowercase = false;
+}).AddEntityFrameworkStores<EventDbContext>();
 
 var app = builder.Build();
 
@@ -33,6 +49,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapRazorPages();
+app.MapControllers();
 
 app.MapControllerRoute(
 	name: "default",
