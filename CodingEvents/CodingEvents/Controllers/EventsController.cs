@@ -3,11 +3,13 @@ using CodingEvents.Models;
 using Microsoft.AspNetCore.Mvc;
 using CodingEvents.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace CodingEvents.Controllers
 {
-	[Route("Events")]
+    [Authorize]
+    [Route("Events")]
 	public class EventsController : Controller
 	{
 		private EventDbContext context;
@@ -17,8 +19,8 @@ namespace CodingEvents.Controllers
 			context = dbContext;
 		}
 
-
-		[HttpGet]
+        [AllowAnonymous]
+        [HttpGet]
 		public IActionResult Index()
 		{
 			List<Event> events = context.Events.Include(e => e.Category).ToList();
